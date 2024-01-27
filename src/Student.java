@@ -6,9 +6,8 @@ public class Student {
     String batchName;
     Float psp;
 
-    void changeBatch(String newBatchName)
+    public void changeBatch(String newBatchName)
     {
-        batch = newBatchName;
-
+        this.batchName = newBatchName;
     }
 }
